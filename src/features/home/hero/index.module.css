@@ -1,0 +1,46 @@
+
+.heroImage{
+    background-color: #020e02;
+    position: relative;
+
+}
+.heroText1{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    height: 40vh;
+    padding-left: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.heroText1 img{
+    position: absolute;
+    height: 70vh;
+    padding-left: 500px;
+    z-index: 1;
+    top: 4000px;
+}
+.heroText2{
+    background-color: #020e02;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+
+
+}
+.heroText2 > img{
+   position: absolute;
+   height: 60vh;
+
+   z-index: 1;
+    top: 4324px;
+   padding-left: 200px;
+}
+.logos{
+    display: flex;
+    background-color: black;
+    padding-left: 70px;
+    height: 30vh;
+    padding-top: 20px;
+}
